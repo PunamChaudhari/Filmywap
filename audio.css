@@ -1,0 +1,91 @@
+.dp
+{
+    background-image: url(./song/dpaud.jpg);
+    height: 250px; width: 350px;
+    background-repeat: no-repeat;   
+    background-size: cover;
+    margin-left: 100px;
+    
+}
+body{
+    background-image: url('./images/a4.jpg');
+    background-repeat: no-repeat;   
+    background-size: cover;
+   }
+   .dp1
+   { 
+padding-top: 20px;
+    height: 100px;
+    width: 100px;
+   }
+   h3{
+    color: rgb(253, 42, 42);
+    padding-top: 300px;
+   }
+   .a
+   {
+    margin-left: 420px;
+    background-color:black ;
+    
+    height: 580px; width: 550px;
+   }
+   .ew
+{
+    background-image: url(./images/Actor/em2.jpg);
+    height: 250px; width: 350px;
+    background-repeat: no-repeat;   
+    background-size: cover;
+    margin-left: 100px;
+    
+}
+.ja
+{
+    background-image: url(./images/fd.jpg);
+    height: 250px; width: 350px;
+    background-repeat: no-repeat;   
+    background-size: cover;
+    margin-left: 100px;
+}
+.rm
+{
+    background-image: url(./images/push.jpg);
+    height: 250px; width: 350px;
+    background-repeat: no-repeat;   
+    background-size: cover;
+    margin-left: 100px;
+}
+.rs
+{
+    background-image: url(./images/khali.jpg);
+    height: 250px; width: 350px;
+    background-repeat: no-repeat;   
+    background-size: cover;
+    margin-left: 100px;
+}
+.aa
+{
+    background-image: url(./images/gangu.jpg);
+    height: 250px; width: 350px;
+    background-repeat: no-repeat;   
+    background-size: cover;
+    margin-left: 100px;
+}
+.ak
+{
+    background-image: url(./images/aks.jpg);
+    height: 250px; width: 350px;
+    background-repeat: no-repeat;   
+    background-size: cover;
+    margin-left: 100px;
+
+}
+.aaa{
+    background-image: url(./images/butt.jpg);
+    height: 250px; width: 350px;
+    background-repeat: no-repeat;   
+    background-size: cover;
+    margin-left: 100px;
+}
+h4{
+    display: inline-block;
+}

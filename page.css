@@ -1,0 +1,59 @@
+h1{
+  display: inline-block;
+}
+.a1{
+  
+    background-color: rgb(212, 186, 236);
+    text-decoration: none;
+    
+  
+  }
+  .a2
+  {
+    display: inline-block;
+    background-color: rgb(218, 189, 247);
+    text-decoration: none;
+  }
+  .a3
+  {  display: inline-block;
+    background-color: rgb(214, 181, 245);
+    text-decoration: none;
+  
+  }
+  .a4
+  {
+    display: inline-block;
+    background-color: rgb(218, 192, 243);
+    text-decoration: none;
+    margin-left: 00px;
+  }
+  .b3
+  {border-style: solid;
+    background-color: rgb(203, 194, 223); 
+  }
+
+.A2{
+    border-style: solid;
+   margin-top: 0PX;
+   padding-top: 100PX;
+   
+}
+#A1
+{
+  margin-top: 1px;
+    border-style: SOLID;
+    border-color: rgb(31, 2, 59);
+    position: fixed;
+    background-color: rgba(219, 162, 200, 0.897);
+    color: rgb(20, 0, 31);
+   padding-right: 930px;
+}
+body{
+    background-color: rgb(160, 160, 241);
+    margin-top: 180OX;
+}
+a{
+  border-style: none;
+  background-color: rgb(209, 173, 243);
+  color: rgb(2, 2, 46);
+}

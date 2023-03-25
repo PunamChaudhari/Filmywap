@@ -1,0 +1,31 @@
+body{
+    
+    color: rgb(1, 1, 44);
+    background-color: rgb(209, 170, 245);
+    margin-top: 0;
+}
+.p{
+       
+  text-align: center;
+    background-color: rgb(243, 97, 146);
+    color: rgb(59, 6, 39);
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+H1{
+  display: inline-block;
+}
+a
+{
+    border-style: solid;
+    display: inline-block;
+    text-decoration: none;
+  border-style: solid;
+  color: rgb(28, 2, 53);
+  margin-left: 100px;
+border-color: rgb(222, 197, 247);
+
+  
+}

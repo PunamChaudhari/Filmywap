@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <script>
+      var c1=0
+           var c2=0
+            var c3=0
+            var c4=0
+           var c5=0
+            var c6=0
+      function Email()
+      {
+        var ch=document.psc.gmail.value
+        var c1=0;
+        var c2=0;
+        if(ch.charAt(0)>='a'&& ch.charAt(0)<='z' )
+         
+            c1++
+        for(var i=0;i<=ch.length;i++)
+        { 
+
+       if (ch.charAt(i)=='@' &&ch.charAt(i+1)=='g' && ch.charAt(ch.length-1)=='m')
+        {
+            c2++
+           break
+        }
+       
+        }
+        
+        function pass()
+        {
+          ;
+          
+            if(p.charAt(0)>='A'&& p.charAt(0)<='Z')
+            { c3++
+                
+            for(var i=0;i<=p.length;i++)
+            {
+                if( (p.charAt(i)>='a'|| p.charAt(i)<='z')&&( p.charAt(i)=='@'||p.charAt(i)=='#'||p.charAt(i)=='%'||p.charAt(i)=='*'||p.charAt(i)=='&'))
+                {
+                c4++
+               
+                    if(p.charAt(i)>=1 && p.charAt(i)<=9)
+                    {
+                        c5++
+                        document.write(c3)
+                        break;
+                    }
+                }
+            }
+        }
+        
+        }
+        if(c1==1 && c2==1 &&c3==1 && c4==1 &&c5==1)
+        {
+          window.open("///F:/QS/html/Industry/FILMINDUSTRY.HTML")
+        }
+        else{
+           window.open("file:///F:/QS/html/Industry/LogInMsg.html")
+        }
+      }
+    </script>
+</head>
+<body>
+   
+  <DIV ID="A1">
+    <H1 style="padding-right :10px ;" >PSC</H1>
+     <a class ="a1" href="Login.html">Log in</a>
+     <a class="a2" href="HomePage.html">Home</a>
+     <a class="a3" href="contact.html">Contact</a>
+     <a class="a4" href="AboutUs.html" >AboutUs</a></DIV>
+  <div class="p">
+  <h1 >LOGIN</h1>
+    <form action="FILMINDUSTRY.HTML" name="psc" onsubmit="return Email()" onsubmit="return pass()" >
+        
+        <b>Name:&nbsp &nbsp &nbsp &nbsp&nbsp</b>
+        <input type="text" value="Name"><br><br>
+        <b>LastName:&nbsp</b>
+        <input type="text" value="LastName"><br><br>
+      <b>Email:&nbsp&nbsp&nbsp&nbsp&nbsp  &nbsp&nbsp</b>
+      <input type="text" value="Gmail" name="gmail"><br><br>
+      
+        <b>Contact no:</b>
+        <input type="number" value="ConNo" ><br><br>
+        <b>Password:&nbsp&nbsp</b>
+        <input type="password" value="password" name="password"><br><br>
+       
+
+        <input type="submit" value="Login" ></div>
+</body>
+</html>
